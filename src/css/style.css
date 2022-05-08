@@ -1,0 +1,30 @@
+@import "~normalize.css";
+@import "fonts.css";
+
+body {
+    min-height: 100vh;
+    font-family: "Trebuchet MS", "Helvetica", sans-serif;
+}
+
+.header {
+    margin: 10px auto;
+    display: block;
+    color: rgba(101,134,177,0.8);
+}
+
+.title {
+    text-align: center;
+    font-size: 30px;
+    line-height: 40px;
+    -webkit-text-stroke: 1px rgba(114,177,101,0.8);
+}
+
+.subtitlle {
+    text-align: center;
+    margin: 10px auto;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+

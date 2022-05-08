@@ -1,12 +1,8 @@
-// import header from "./js/Header" ;
-// import textarea from "./js/Textarea";
-// import keyboard from "./js/Keyboard";
+import createHead from './js/Header.js';
+import style from './css/style.css';
 
-
-window.onload = () => {
-
-    document.body.appendChild(document.createElement('div'))
-    header();
-    const text = textarea();
-    keyboard(text);
-  };
+createHead();
+const text = createTextarea();
+createKeyboard(text);
+createFooter();
+changeСase();
