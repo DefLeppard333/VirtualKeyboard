@@ -15,8 +15,10 @@ body {
 .title {
     text-align: center;
     font-size: 30px;
+    font-weight: normal;
     line-height: 40px;
     -webkit-text-stroke: 1px rgba(114,177,101,0.8);
+    margin: 10px 0 10px 0;
 }
 
 .subtitlle {
@@ -35,6 +37,102 @@ body {
     font-size: 18px;
     color: #444444;
 }
+.keyboard {
+    width: 704px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    border-radius: 8px;
+    background-color: #888888;;
+    padding: 5px;
+    border: 3px solid #222222;
+    border-radius: 5px;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .key {
+    border-radius: 3px;
+    font-size: 20px;
+    font-weight: 100px;
+    color: #ffffff;
+    width: 55px;
+    height: 45px;
+    margin: 2px;
+    background: #444444;
+    padding: 0px;
+    cursor: pointer;
+    border: none
+   
+  }
+  
+  .key.active, .key.capslk {
+    background-color: #2cfd72;
+    border-radius: 15px;
+    transition: all ease-in-out .1s; 
+  }
+  
+  .key:active {
+    background-color: #2cfd72;
+    border-radius: 15px;
+    transition: all ease-in-out .1s;
+  }
+  
+  .key:hover {
+    background-color: #79aa89; 
+    transition: all ease-in-out .1s;
+  }
+  
+  .key_backspace, 
+  .key_tab,
+  .key_capslock,
+  .key_enter,
+  .key_leftshift,
+  .key_rightshift,
+  .key_del,
+  .key_leftctrl,
+  .key_rightctrl,
+  .key_win,
+  .key_leftalt,
+  .key_rightalt,
+  .key_space {
+    background: #222222;
+    font-size: 17px;
+  }
+  
+  .key_backspace{
+    width: 150px;
+  }
+  
+  .key_tab {
+    width: 70px;
+  }
+  
+  .key_capslock,
+  .key_enter {
+    width: 130px;
+  }
+  
+  .key_leftshift {
+    width: 135px;
+  }
+  
+  .key_rightshift {
+    width: 114px;
+  }
+  
+  .key_leftctrl {
+    width: 80px;
+  }
+  
+  
+  .key_space {
+    width: 420px;
+  }
 
 
 
